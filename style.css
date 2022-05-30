@@ -1,0 +1,76 @@
+html {
+    font-size: 10px;
+    background-color: RGB(255, 255, 255);
+}
+
+.container{
+    background-color: RGB(0, 0, 0);
+    color: RGB(255, 255, 255);
+    font-size: 2rem;
+    margin: 0rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Courier New', Courier, monospace;
+    gap: 2.5rem;
+}
+
+.header {
+}
+
+.header p {
+    font-style: italic;
+}
+
+.btn-group {
+    display: flex;
+    gap: 3rem;
+}
+
+.btn {
+    font-size: 3rem;
+    width: 20rem;
+    padding: 2rem;
+    background-color: RGB(255, 255, 255);
+    border: solid 1rem RGB(35, 35, 35);
+    border-radius: 2rem;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    box-shadow: 0px 0px 20px RGB(255, 255, 255);
+}
+
+.btn:hover {
+    color: RGB(255, 255, 255);
+    background-color:RGB(0, 0, 0);
+}
+
+.score-container{
+    display: flex;
+    border: solid 1rem RGB(35, 35, 35);
+    border-radius: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.score-board-flex {
+    display: flex;
+}
+
+.score-board {
+    font-size: 1.5rem;
+    background-color: RGB(255, 255, 255);
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.scr-container {
+    display: flex;
+    background-color: RGB(0, 0, 0);
+    justify-content: center;
+}
